@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ 
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25242a;
+    height: 50px;
+    font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease 0s ;
+}
+
+.logo{
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right: auto;
+    padding: 25px;
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 20px;
+     
+}
+
+.nav_link a:hover{
+    color: tomato;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    position: relative;
+    width: 100%;
+    text-align: center;
+} 
+
+nav #categoires:hover .categoires_menu > li{
+    top: 0;
+    display: block;
+} 
+
+.categoires_menu > li{
+    display: none;
+    position: relative;
+}  
+
+
+
+.categoires_menu{
+    z-index: 5;
+    border-radius: 10px;
+    background-color: #25242a;
+    position: absolute;
+    display: block;
+    flex-direction: column;
+    width: 100%;
+}
+/* artwork & style css */
+ .artwork_menu:hover .artwork li{
+    display: block;
+}
+
+.artwork li{
+    display: none;
+}
+
+.artwork,.style{
+    background-color: #25242a;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.artwork{
+    right: 100%;
+}
+
+.style{
+    left: 100%;
+}
+.artwork li a{
+    display: block;
+}
+
+.style,.artwork{
+    color: black;
+}
+.style_menu:hover .style li{
+    display: block;
+}
+
+.style li{
+    display: none;
+}
+
+
+.style li a{
+    display: block;
+} 
+/* sign up bttun css */
+.btn{
+    border: none;
+}
+
+
+button{
+    font-size: 15px;
+    font-weight: 500;
+    color: whitesmoke;
+    padding: 9px 20px;
+    background-color: rgba(255, 91, 75, 1);
+    border: none;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: all 0.3s linear 0s ;
+}
+
+button:hover{
+    background-color: rgba(44, 44, 253, 0.542);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* page css */
+.page_1{
+    min-height: 91vh;
+    min-width: 100vw;
+    font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+.page_head , .page_par{
+    display: block;
+    cursor: pointer;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    position: relative;
+    color: #25242a;
+    position: relative;
+    
+}
+.page_head{
+    margin-bottom: 10px;
+    font-size: 75px;
+}
+
+.page_par{
+    margin-bottom: 45%;
+}
+
+
+
+
+
+
+
+
